@@ -1,0 +1,22 @@
+.cardsCompetences {
+    flex: 1;
+    background-color: var(--background-color-1);
+    padding: 1em;
+    border-radius: 40px;
+    h3 {
+        display: flex;
+        justify-content: center;
+        color: var(--text-color);
+        font-size: var(--h3-size);
+        &:hover {
+            color: var(--text-hover);
+        }
+    }
+    .listCompetences {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -4,11 +4,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 100%;
-    width: 40vw;
+    min-width: 400px;
     padding: 1rem;
     background-color: var(--background-color-1);
-    box-shadow: 0px 0px 9px 2px #dddddd87;
+    box-shadow: var(--box-shadow-card);
     transition: 0.6s;
     h3 {
         font-size: var(--h3-size);
@@ -33,9 +32,10 @@
         }
     }
     .myCv {
-        padding-top: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     &:hover {
-        box-shadow: 0px 0px 8px 8px #f2efefda;
+        box-shadow: var(--box-shadow-card-hover);
     }
 }

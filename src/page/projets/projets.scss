@@ -1,0 +1,9 @@
+#projects {
+    width: 100%;
+    padding: 6rem 3rem;
+    background-color: var(--background-color-1);
+    .listProject {
+        display: flex;
+        gap: 5px;
+    }
+}

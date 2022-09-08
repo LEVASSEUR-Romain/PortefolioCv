@@ -1,0 +1,9 @@
+#competences {
+    background-color: var(--background-color-2);
+    padding: 9em;
+    .competencesCards {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}

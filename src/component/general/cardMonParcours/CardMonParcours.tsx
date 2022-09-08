@@ -2,6 +2,7 @@ import React from "react";
 import "./cardMonParcours.scss";
 import ButtonSkill from "../../button/buttonSkill/ButtonSkill";
 import ButtonRound from "../../button/buttonRound/buttonRound";
+import { listSocial } from "../../../list/listCompences";
 export default function CardsMonParcours() {
   return (
     <div className="monParcours">
@@ -24,24 +25,11 @@ export default function CardsMonParcours() {
       </p>
       <h3>Compétences social</h3>
       <ul>
-        <li>
-          <ButtonSkill value="Esprit d'équipe" />
-        </li>
-        <li>
-          <ButtonSkill value="Autonomie" />
-        </li>
-        <li>
-          <ButtonSkill value="Rigueur" />
-        </li>
-        <li>
-          <ButtonSkill value="Curieux" />
-        </li>
-        <li>
-          <ButtonSkill value="Bienvaillance" />
-        </li>
-        <li>
-          <ButtonSkill value="Humble" />
-        </li>
+        {listSocial.map((elmt, index) => (
+          <li key={index}>
+            <ButtonSkill value={elmt} />
+          </li>
+        ))}
       </ul>
       <div className="myCv">
         <ButtonRound value="Télécharger mon CV" link="/cv" />
