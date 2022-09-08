@@ -1,0 +1,9 @@
+.ancreNavBar {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--a-link-size);
+    text-transform: uppercase;
+    &:hover {
+        color: var(--text-hover);
+    }
+}

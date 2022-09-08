@@ -1,0 +1,36 @@
+.lieu {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+    transition: var(--transition);
+    a {
+        color: var(--text-color);
+        font-size: var(--a-link-size);
+        position: relative;
+        cursor: pointer;
+    }
+    /*     a:hover::before {
+        width: 100%;
+    }
+    a::before {
+        background: var(--skill);
+        top: var(--a-link-size);
+        content: "";
+        height: 3px;
+        left: 0;
+        position: absolute;
+        transition: 0.4s ease-out;
+        width: 0;
+    } */
+
+    a:hover {
+        color: var(--text-hover);
+    }
+    img {
+        // raport image
+        $widthLogo: 10px;
+        width: $widthLogo;
+        height: calc(#{$widthLogo} * 1.33);
+    }
+}

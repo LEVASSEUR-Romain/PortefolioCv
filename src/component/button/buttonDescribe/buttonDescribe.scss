@@ -1,0 +1,13 @@
+.buttonDescribe {
+    color: var(--skill-background);
+    font-size: var(--skill-size);
+    background-color: var(--background-color-2);
+    transition: 0.6s;
+    padding: 0.5rem;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    &:hover {
+        color: var(--text-color);
+    }
+}

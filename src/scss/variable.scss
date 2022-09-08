@@ -1,2 +1,25 @@
 :root {
+    // light mode
+    --background-color-1-light: #ffffff;
+    --background-color-2-light: #f9f6f1;
+    --text-color-light: #484547;
+    --text-hover-light: #c9c9c9;
+    //dark mode
+    --background-color-1-dark: #333333;
+    --background-color-2-dark: #403f3f;
+    --text-color-dark: #c7c6c6;
+    --text-hover-dark: #7d7d7d;
+    //skill
+    --skill-background: #d09483;
+    --skill-color: #ffffff;
+    // taille text
+    --name-size: 2rem;
+    --a-link-size: 1rem;
+    --h1-size: 4rem;
+    --nav-bar-height: 10vh;
+    --h2-size: 2rem;
+    --h3-size: 1.8rem;
+    --p-size: 1.3rem;
+    // transition
+    --transition: all 0.5s ease-in-out;
 }

@@ -1,0 +1,10 @@
+h1 {
+    font-size: var(--h1-size);
+    padding: 1rem;
+    color: var(--text-color);
+    position: relative;
+    z-index: 2;
+    &:hover {
+        color: var(--text-hover);
+    }
+}

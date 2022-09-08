@@ -1,0 +1,17 @@
+.buttonRound {
+    cursor: pointer;
+    border-radius: 34px;
+    font-weight: bold;
+    padding: 11px 39px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    background-color: var(--background-color-1);
+    position: relative;
+    z-index: 2;
+    transition: var(--transition);
+    border: 2px solid black;
+    &:hover {
+        color: var(--background-color-2);
+        background-color: var(--text-hover);
+    }
+}
