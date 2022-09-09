@@ -10,3 +10,10 @@ export interface Project {
   src: string;
   liens: string;
 }
+
+export interface Succes {
+  name: string;
+  liens: string;
+  src: string;
+  liensGitHub: string;
+}

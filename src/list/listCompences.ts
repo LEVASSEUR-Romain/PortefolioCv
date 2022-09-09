@@ -8,7 +8,7 @@ export const listFrontEnd = [
   "TypeScript",
 ];
 
-export const listBackEnd = ["PHP", "MySQL", "NodeJs"];
+export const listBackEnd = ["PHP", "MySQL", "NodeJs", "MongoDb", "Express"];
 
 export const listTools = ["GitHub"];
 

@@ -1,0 +1,29 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--padding-page);
+    gap: 20px;
+    h2 {
+        color: var(--text-color);
+        font-size: var(--h3-size);
+    }
+    p {
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    form {
+        padding: 20px;
+        background-color: var(--background-color-2);
+        ul {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            li {
+                width: 50vw;
+            }
+        }
+    }
+}

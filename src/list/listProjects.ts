@@ -1,7 +1,7 @@
 import { Project } from "../interface";
 // import image
-import mathsc from "../asset/jpg/projects/mathsc.jpg";
-import repro from "../asset/jpg/projects/repro.jpg";
+import mathsc from "../asset/image/projects/mathsc.jpg";
+import repro from "../asset/image/projects/repro.jpg";
 const listProjects: Project[] = [
   {
     name: "Reproduction",

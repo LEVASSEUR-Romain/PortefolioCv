@@ -23,6 +23,9 @@ export default function HeaderPage() {
             <ButtonLiens value="Projets" link="/projets" />
           </li>
           <li>
+            <ButtonLiens value="Succès" link="/succes" />
+          </li>
+          <li>
             <ButtonLiens value="Contact" link="/contact" />
           </li>
         </ul>

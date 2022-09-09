@@ -8,11 +8,13 @@ export default function Projets() {
   return (
     <section id="projects">
       <UnderTitle title="Projets" />
-      <div className="listProject">
+      <ul className="listProject">
         {listProjects.map((elmt: Project, index: number) => (
-          <CardsProjet key={index} project={elmt} />
+          <li key={index}>
+            <CardsProjet project={elmt} />
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
