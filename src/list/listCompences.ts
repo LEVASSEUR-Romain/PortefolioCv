@@ -4,7 +4,7 @@ export const listFrontEnd = [
   "scss",
   "JavaScript",
   "REACT",
-  "Jquery",
+  "JQuery",
   "TypeScript",
 ];
 

@@ -22,7 +22,7 @@ nav {
             width: 100%;
         }
         li::before {
-            background: var(--skill);
+            background: var(--skill-background);
             bottom: -1.2rem;
             content: "";
             height: 3px;
@@ -33,7 +33,7 @@ nav {
         }
         .navLiFocus::before {
             width: 100%;
-            background: var(--skill);
+            background: var(--skill-background);
             bottom: -1.2rem;
             content: "";
             height: 3px;

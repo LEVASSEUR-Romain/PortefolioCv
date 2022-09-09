@@ -5,6 +5,7 @@ import AncreSpecial from "../../component/decoration/ancreSpecial/AncreSpecial";
 import iconeTel from "../../asset/svg/iconeTel.svg";
 import iconeMail from "../../asset/svg/iconeMail.svg";
 import ButtonToUp from "./../../component/button/buttonToUp/ButtonToUp";
+
 export default function Footer() {
   return (
     <footer>

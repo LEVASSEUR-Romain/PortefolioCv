@@ -26,9 +26,8 @@
         height: 50px;
         text-decoration: none;
         border-radius: 100%;
-        background: var(--background-color-2);
+        background: var(--background-color-1);
         text-align: center;
-
         &::after {
             content: "";
             position: absolute;

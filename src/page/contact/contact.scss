@@ -4,12 +4,14 @@
     align-items: center;
     flex-direction: column;
     padding: var(--padding-page);
+    background-color: var(--background-color-1);
     gap: 20px;
-    h2 {
+    h3 {
         color: var(--text-color);
         font-size: var(--h3-size);
     }
     p {
+        color: var(--text-color);
         font-weight: bold;
         font-size: 0.7rem;
     }
