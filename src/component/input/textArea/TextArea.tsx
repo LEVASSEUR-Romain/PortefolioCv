@@ -1,5 +1,5 @@
 import React from "react";
-import ChampObligatoire from "../../decoration/scrollBottom/champObligatoire/ChampObligatoire";
+import ChampObligatoire from "../../decoration/champObligatoire/ChampObligatoire";
 import "./textArea.scss";
 export default function TextArea({
   value,

@@ -25,7 +25,7 @@ const listSucces: Succes[] = [
     src: freeCodeCamp,
   },
   {
-    name: "CERTIFICATION JAVASCRIPT",
+    name: "Certification JavaScript",
     liens: "https://www.codingame.com/certification/VN8V3lP3z4R0tC9hAIn9HA",
     liensGitHub: "https://github.com/LEVASSEUR-Romain/codeInGame",
     src: codingame,

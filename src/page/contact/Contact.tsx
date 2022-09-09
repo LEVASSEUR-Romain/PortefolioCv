@@ -2,7 +2,7 @@ import React from "react";
 import UnderTitle from "../../component/general/underTitle/UnderTitle";
 import "./contact.scss";
 import InputBasique from "./../../component/input/inputBasique/InputBasique";
-import ChampObligatoire from "../../component/decoration/scrollBottom/champObligatoire/ChampObligatoire";
+import ChampObligatoire from "../../component/decoration/champObligatoire/ChampObligatoire";
 import TextArea from "./../../component/input/textArea/TextArea";
 import InputSubmit from "../../component/input/inputSubmit/InputSubmit";
 export default function Contact() {

@@ -20,4 +20,6 @@ export const listSocial = [
   "Rigueur",
   "Bienvaillant",
   "Humble",
+  "Imagination",
+  "Ouverture d'esprit",
 ];

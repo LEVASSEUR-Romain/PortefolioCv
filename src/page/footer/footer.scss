@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    .liensSocialFooter {
+        display: flex;
+        gap: 20px;
+    }
+    .mentions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .infoFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .droit {
+    }
+}

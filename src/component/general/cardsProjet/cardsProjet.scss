@@ -21,6 +21,7 @@
         h4 {
             color: var(--text-color);
             font-size: var(--h3-size);
+            padding-bottom: 10px;
         }
         img {
             height: 100%;
@@ -28,8 +29,12 @@
             object-fit: cover;
         }
         p {
+            padding-top: 10px;
             color: var(--text-color);
             line-height: 2rem;
         }
+    }
+    &:hover {
+        opacity: 0.8;
     }
 }

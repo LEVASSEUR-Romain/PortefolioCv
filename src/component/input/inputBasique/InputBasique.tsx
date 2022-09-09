@@ -1,6 +1,6 @@
 import React from "react";
 import "./inputBasique.scss";
-import ChampObligatoire from "./../../decoration/scrollBottom/champObligatoire/ChampObligatoire";
+import ChampObligatoire from "../../decoration/champObligatoire/ChampObligatoire";
 export default function InputBasique({
   type,
   value,
