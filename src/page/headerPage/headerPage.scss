@@ -45,3 +45,14 @@
         }
     }
 }
+
+@import "../../scss/variableScss.scss";
+@media screen and (max-width: $point-2) {
+    .headerPage {
+        nav {
+            ul {
+                display: none;
+            }
+        }
+    }
+}

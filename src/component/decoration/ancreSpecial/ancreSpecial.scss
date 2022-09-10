@@ -29,3 +29,14 @@
         transform: translateX(-10%);
     }
 }
+
+@import "../../../scss/variableScss.scss";
+@media screen and (max-width: $point-2) {
+    .ancreSecial {
+        font-size: 0.6rem;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

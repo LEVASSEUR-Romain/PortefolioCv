@@ -12,3 +12,10 @@
         opacity: 0.6;
     }
 }
+
+@import "../../../scss/variableScss.scss";
+@media screen and (max-width: $point-4) {
+    .skill {
+        padding: 0.1rem;
+    }
+}

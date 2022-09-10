@@ -9,3 +9,10 @@
         transform: scale(1.1);
     }
 }
+@import "../../../scss/variableScss.scss";
+
+@media screen and (max-width: $point-3) {
+    .name {
+        display: none;
+    }
+}

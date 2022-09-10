@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    min-width: 400px;
     padding: 1rem;
     background-color: var(--background-color-1);
     box-shadow: var(--box-shadow-card);
@@ -23,6 +22,7 @@
     }
     p {
         font-style: italic;
+        font-size: var(--p-size);
         color: var(--text-color);
         span {
             font-style: normal;

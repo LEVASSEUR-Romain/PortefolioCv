@@ -1,0 +1,112 @@
+.hamburger {
+    display: none;
+    .hambugerLines {
+        display: block;
+        height: 28px;
+        width: 35px;
+        position: absolute;
+        bottom: 35%;
+        right: 4%;
+        z-index: 11;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .line1 {
+            transform-origin: 0% 0%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .line2 {
+            transition: transform 0.2s ease-in-out;
+        }
+        .line3 {
+            transform-origin: 0% 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .line {
+            display: block;
+            height: 4px;
+            width: 100%;
+            border-radius: 10px;
+            background: var(--text-color);
+        }
+    }
+    .menuItems {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 40%;
+        z-index: 10;
+        padding-top: 100px;
+        background: var(--background-color-1);
+        height: 100vh;
+        margin-left: -40px;
+        padding-left: 40px;
+        box-shadow: 5px 0px 10px 0px #aaa;
+        /*    display: none; */
+        display: none;
+        ul {
+            display: flex;
+            flex-direction: column;
+            li {
+                margin-bottom: 1.8rem;
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+            padding-bottom: 60px;
+        }
+    }
+    .imageSlideLeft {
+        width: 15px;
+        height: 15px;
+        animation: aniamtionSlide 1s infinite;
+    }
+}
+
+//toggle class
+.hambugerChecked {
+    .hambugerLines {
+        .line1 {
+            transform: rotate(45deg);
+        }
+        .line2 {
+            transform: scaleY(0);
+        }
+        .line3 {
+            transform: rotate(-45deg);
+        }
+    }
+    .menuItems {
+        display: block;
+        animation: animationShowHamburger 0.5s forwards;
+    }
+}
+
+@keyframes animationShowHamburger {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes aniamtionSlide {
+    0% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    98% {
+        opacity: 1;
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@import "../../../scss/variableScss.scss";
+@media screen and (max-width: $point-2) {
+    .hamburger {
+        display: block;
+    }
+}

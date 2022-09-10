@@ -21,15 +21,10 @@ export default function Footer() {
           style={{}}
         />
       </div>
-      <div className="mentions">
-        <div>
-          <a href="">Mentions Légales</a> |
-          <a href=""> Politique de confidentialité</a>
-        </div>
-        <div className="droit">
-          © Copyright 2022 - LEVASSEUR Romain - Tous droits réservés
-        </div>
+      <div className="droit">
+        © Copyright 2022 - LEVASSEUR Romain - Tous droits réservés
       </div>
+
       <div className="infoFooter">
         <AncreSpecial
           value="romainlev@gmail.com"

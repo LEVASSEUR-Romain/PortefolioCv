@@ -2,6 +2,7 @@
     cursor: pointer;
     border-radius: 34px;
     font-weight: bold;
+    font-size: var(--a-link-size);
     padding: 11px 39px;
     text-transform: uppercase;
     color: var(--text-color);
@@ -13,5 +14,12 @@
     &:hover {
         color: var(--background-color-2);
         background-color: var(--text-hover);
+    }
+}
+
+@import "../../../scss/variableScss.scss";
+@media screen and (max-width: $point-3) {
+    .buttonRound {
+        padding: 11px 10px;
     }
 }

@@ -12,9 +12,7 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
-// Mettre a jour CV et mentions légale Politique de confidentialité linkedin
-// responsive
-//formulaire envoyer
+// Mettre a jour CV et linkedin
 
 root.render(
   <React.StrictMode>

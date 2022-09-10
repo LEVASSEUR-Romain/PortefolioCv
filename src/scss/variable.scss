@@ -12,6 +12,7 @@
     //skill
     --skill-background: #6c63ff;
     --skill-color: #ffffff;
+    --skill-size: 1rem;
     // taille text
     --name-size: 2rem;
     --a-link-size: 1rem;
@@ -30,4 +31,34 @@
     // input
     --padding-input: 12px 20px;
     --border-input: 1px solid lightgrey;
+}
+
+@import "./variableScss.scss";
+@media screen and (max-width: $point) {
+    :root {
+        --name-size: 1rem;
+    }
+}
+
+@media screen and (max-width: $point-2) {
+    :root {
+        --a-link-size: 0.8rem;
+        --h3-size: 1rem;
+        --h2-size: 1.5rem;
+        --skill-size: 0.8rem;
+        --p-size: 1rem;
+    }
+}
+
+@media screen and (max-width: $point-3) {
+    :root {
+        --h1-size: 3rem;
+    }
+}
+
+@media screen and (max-width: $point-4) {
+    :root {
+        --h1-size: 1.5rem;
+        --p-size: 0.8rem;
+    }
 }
