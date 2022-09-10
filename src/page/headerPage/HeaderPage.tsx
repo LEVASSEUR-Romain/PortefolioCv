@@ -5,28 +5,28 @@ import Name from "../../component/general/name/Name";
 import "./headerPage.scss";
 export default function HeaderPage() {
   return (
-    <header>
+    <header className="headerPage">
       <nav>
         <Name />
         <ButtonDarkMode />
         <ul>
           <li>
-            <ButtonLiens value="Accueil" link="/" />
+            <ButtonLiens value="Accueil" link="" />
           </li>
           <li>
-            <ButtonLiens value="A propos" link="/apropos" />
+            <ButtonLiens value="A propos" link="aPropos" />
           </li>
           <li>
-            <ButtonLiens value="Compétences" link="/competences" />
+            <ButtonLiens value="Compétences" link="competences" />
           </li>
           <li>
-            <ButtonLiens value="Projets" link="/projets" />
+            <ButtonLiens value="Projets" link="projects" />
           </li>
           <li>
-            <ButtonLiens value="Succès" link="/succes" />
+            <ButtonLiens value="Succès" link="succes" />
           </li>
           <li>
-            <ButtonLiens value="Contact" link="/contact" />
+            <ButtonLiens value="Contact" link="contact" />
           </li>
         </ul>
       </nav>

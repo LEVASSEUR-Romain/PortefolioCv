@@ -8,7 +8,7 @@ export default function ButtonLiens({
   link: string;
 }) {
   return (
-    <a href={link} className="ancreNavBar">
+    <a href={"?action=#" + link} className="ancreNavBar">
       {value}
     </a>
   );

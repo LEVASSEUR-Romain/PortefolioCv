@@ -3,10 +3,12 @@ import ChampObligatoire from "../../decoration/champObligatoire/ChampObligatoire
 import "./textArea.scss";
 export default function TextArea({
   value,
+  name,
   placeholder,
   required,
 }: {
   value: string;
+  name: string;
   placeholder: string;
   required: boolean;
 }) {
@@ -19,6 +21,7 @@ export default function TextArea({
       <textarea
         className="textArea"
         placeholder={placeholder}
+        name={name}
         required={required}
       ></textarea>
     </label>

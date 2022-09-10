@@ -5,18 +5,29 @@ import Main from "./page/main/Main";
 // import scss
 import "./index.scss";
 import "./scss/variable.scss";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Cv from "./page/cv/Cv";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+// Mettre a jour CV et mentions légale Politique de confidentialité linkedin
+// responsive
+//formulaire envoyer
+
 root.render(
   <React.StrictMode>
-    <Main />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/cv" element={<Cv />} />
+        {/*         <Route path="/project" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<Navigate to="/" />} /> */}
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// https://www.carolinemelikian-portfolio.com/
 reportWebVitals();

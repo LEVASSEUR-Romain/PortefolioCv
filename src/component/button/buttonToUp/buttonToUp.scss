@@ -1,5 +1,19 @@
 .buttonToUp {
     position: absolute;
-    top: -300%;
-    left: 10%;
+    top: -77%;
+    right: 5%;
+    animation: animationUpPage 2s infinite;
+    padding: 10px;
+}
+
+@keyframes animationUpPage {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }

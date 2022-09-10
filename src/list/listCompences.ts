@@ -6,6 +6,7 @@ export const listFrontEnd = [
   "REACT",
   "JQuery",
   "TypeScript",
+  "Jest",
 ];
 
 export const listBackEnd = ["PHP", "MySQL", "NodeJs", "MongoDb", "Express"];

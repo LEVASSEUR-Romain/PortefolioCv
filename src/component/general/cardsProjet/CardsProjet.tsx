@@ -12,8 +12,8 @@ export default function CardsProjet({ project }: { project: Project }) {
         <p>{project.description}</p>
         <ul>
           {project.listTech.map((elmt, index) => (
-            <li>
-              <ButtonSkill key={index} value={elmt} />
+            <li key={index}>
+              <ButtonSkill value={elmt} />
             </li>
           ))}
         </ul>

@@ -1,45 +1,47 @@
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.headerPage {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 3;
-    background-color: var(--background-color-1);
-    padding: 1rem 2rem;
-    opacity: 0.9;
-    height: var(--nav-bar-height);
-    ul {
+    nav {
         display: flex;
-        gap: 10px;
-        li {
-            list-style-type: none;
-            position: relative;
-            cursor: pointer;
-        }
-        li:hover::before {
-            width: 100%;
-        }
-        li::before {
-            background: var(--skill-background);
-            bottom: -1.2rem;
-            content: "";
-            height: 3px;
-            left: 0;
-            position: absolute;
-            transition: 0.4s ease-out;
-            width: 0;
-        }
-        .navLiFocus::before {
-            width: 100%;
-            background: var(--skill-background);
-            bottom: -1.2rem;
-            content: "";
-            height: 3px;
-            left: 0;
-            position: absolute;
-            transition: 0.4s ease-out;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--background-color-1);
+        padding: 1rem 2rem;
+        opacity: 0.93;
+        height: var(--nav-bar-height);
+        ul {
+            display: flex;
+            gap: 10px;
+            li {
+                list-style-type: none;
+                position: relative;
+                cursor: pointer;
+            }
+            li:hover::before {
+                width: 100%;
+            }
+            li::before {
+                background: var(--skill-background);
+                bottom: -1.2rem;
+                content: "";
+                height: 3px;
+                left: 0;
+                position: absolute;
+                transition: 0.4s ease-out;
+                width: 0;
+            }
+            .navLiFocus::before {
+                width: 100%;
+                background: var(--skill-background);
+                bottom: -1.2rem;
+                content: "";
+                height: 3px;
+                left: 0;
+                position: absolute;
+                transition: 0.4s ease-out;
+            }
         }
     }
 }

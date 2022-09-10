@@ -7,8 +7,15 @@ export default function ButtonRound({
   value: string;
   link: string;
 }) {
+  if (link === "cv") {
+    return (
+      <a className="buttonRound" href="/cv">
+        {value}
+      </a>
+    );
+  }
   return (
-    <a className="buttonRound" href={link}>
+    <a className="buttonRound" href={"?action=#" + link}>
       {value}
     </a>
   );

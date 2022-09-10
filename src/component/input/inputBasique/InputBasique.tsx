@@ -4,11 +4,13 @@ import ChampObligatoire from "../../decoration/champObligatoire/ChampObligatoire
 export default function InputBasique({
   type,
   value,
+  name,
   placeholder,
   required,
 }: {
   type: string;
   value: string;
+  name: string;
   placeholder: string;
   required: boolean;
 }) {
@@ -18,7 +20,12 @@ export default function InputBasique({
         {required ? <ChampObligatoire /> : ""}
         {value} :
       </p>
-      <input type={type} placeholder={placeholder} required={required} />
+      <input
+        type={type}
+        name={name}
+        placeholder={placeholder}
+        required={required}
+      />
     </label>
   );
 }

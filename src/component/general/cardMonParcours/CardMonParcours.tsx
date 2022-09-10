@@ -32,7 +32,7 @@ export default function CardsMonParcours() {
         ))}
       </ul>
       <div className="myCv">
-        <ButtonRound value="Télécharger mon CV" link="/cv" />
+        <ButtonRound value="Télécharger mon CV" link="cv" />
       </div>
     </div>
   );
