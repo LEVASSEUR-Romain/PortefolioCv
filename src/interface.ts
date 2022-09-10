@@ -3,6 +3,11 @@ export interface useStateDarkMode {
   setDarkMode: (params: boolean) => void;
 }
 
+export interface useStateHamburger {
+  isHamburgerOpen: boolean;
+  setIsHamburgerOpen: (params: boolean) => void;
+}
+
 export interface Project {
   name: string;
   description: string;
