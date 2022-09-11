@@ -30,6 +30,7 @@ const SlideOnWindow = (moveToPourcentage: number): useStateHamburger => {
     } else if (clientXDown - clientXUp >= pixelEcart) {
       setIsHamburgerOpen(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clientXUp]);
 
   return { isHamburgerOpen, setIsHamburgerOpen };
