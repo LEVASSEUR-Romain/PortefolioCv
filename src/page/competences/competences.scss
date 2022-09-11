@@ -4,6 +4,14 @@
     .competencesCards {
         display: flex;
         gap: 10px;
-        flex-wrap: wrap;
+    }
+}
+
+@import "../../scss/variableScss.scss";
+@media screen and (max-width: $point-2) {
+    #competences {
+        .competencesCards {
+            flex-direction: column;
+        }
     }
 }
