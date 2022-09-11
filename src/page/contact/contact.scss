@@ -30,3 +30,12 @@
         }
     }
 }
+
+@import "../../scss/variableScss.scss";
+@media screen and (max-width: $point-3) {
+    #contact {
+        form {
+            width: 100%;
+        }
+    }
+}
