@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import slideLeft from "../../../asset/svg/slideLeft.svg";
 import "./hamburger.scss";
 import SlideOnWindow from "../../../hook/SlideOnWindow.hook";

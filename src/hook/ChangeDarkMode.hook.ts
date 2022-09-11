@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import getVariableCss from "../tools/getVariableCss";
 import { useStateDarkMode } from "../interface";
 const ChangeDarkMode = (): useStateDarkMode => {
