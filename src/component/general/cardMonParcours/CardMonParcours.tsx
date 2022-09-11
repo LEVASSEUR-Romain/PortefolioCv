@@ -8,12 +8,16 @@ export default function CardsMonParcours() {
     <div className="monParcours">
       <h3>Mon Parcours</h3>
       <p>
-        Aprés une expérience de professeur de maths sciences pour des bacs
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam minima
+        nulla, dignissimos iste ea veritatis sunt quo? Ex suscipit praesentium
+        ducimus dolor delectus animi quae, corporis neque mollitia excepturi
+        natus.
+        {/*         Aprés une expérience de professeur de maths sciences pour des bacs
         professionnel. j'ai décidé une reconversion professionnelle dans un
         domaine qui me corresponder mieux. Pendant mes temps libre j'ai appris
         en autodidact le developpement web car l'aspect logique et créativité
         m'interesse. Je suis en cours d'apprentisage avec des projets et la
-        formation &nbsp;
+        formation &nbsp; */}
         <a
           href="https://openclassrooms.com/fr/paths/500-developpeur-dapplication-php-symfony"
           target="_blank"
