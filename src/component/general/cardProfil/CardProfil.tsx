@@ -6,15 +6,15 @@ export default function CardProfil() {
   return (
     <div className="cardProfil">
       <img src={iconeProfil} alt="un homme blond prés d'un ordinateur" />
-      <h3>Romain Levasseur</h3>
+      <h3>LEVASSEUR Romain</h3>
       <p>
         “L’imagination est plus importante que le savoir.”{" "}
         <span>De Albert Einstein</span>
       </p>
       <ButtonDescribe value={"age"} />
       <ButtonDescribe value={"Aisne"} />
-      <ButtonDescribe value={"Loisir : Cinéma, twitch interview"} />
-      <ButtonDescribe value={"Sport : Natation,Jogging"} />
+      <ButtonDescribe value={"Loisirs : Cinéma, twitch interview"} />
+      <ButtonDescribe value={"Sports : Natation, Jogging"} />
     </div>
   );
 }

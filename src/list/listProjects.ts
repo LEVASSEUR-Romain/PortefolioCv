@@ -9,23 +9,24 @@ import casseBrique from "../asset/image/projects/casseBrique.jpg";
 
 const listProjects: Project[] = [
   {
-    name: "Casse Brique donjon",
+    name: "Casse briques Donjon",
     description:
-      "Un mini jeu complet vous etes dans un donjon avec des bonus et des montres a vous d'etre le meilleur",
+      "Un mini jeu complet : Vous êtes dans un donjon avec des bonus et des monstres. A vous d'être le meilleur",
     listTech: ["HTML", "JavaScript", "Jest"],
     src: casseBrique,
     liens: "http://cinequiz.fb.free.fr/project/cassebrick/",
   },
   {
     name: "Snake",
-    description: "Petit projet : un snake pour s'exercé au typeScript",
+    description:
+      "Petit projet : Un jeu du serpent pour s'exercer au TypeScript",
     listTech: ["HTML", "TypeScript"],
     src: snake,
     liens: "http://cinequiz.fb.free.fr/project/snake/",
   },
   {
-    name: "Course d'escargot",
-    description: "Petit projet : un peu de fun pour apprendre le Jest",
+    name: "Course d'escargots",
+    description: "Petit projet : Un peu de fun pour apprendre le Jest",
     listTech: ["HTML", "JavaScript", "Jest"],
     src: courseEscargot,
     liens: "http://cinequiz.fb.free.fr/project/escargot/",
@@ -33,7 +34,7 @@ const listProjects: Project[] = [
   {
     name: "Cinéma Quiz",
     description:
-      "Un site de quiz cinema une affiche de film faut trouver le nom du film",
+      "Un site de quiz cinéma, une affiche de film et il faut trouver le nom du film",
     listTech: ["PHP", "HTML", "CSS", "MySQL", "JavaScript"],
     src: cinequiz,
     liens: "http://cinequiz.fb.free.fr/",
@@ -41,7 +42,7 @@ const listProjects: Project[] = [
   {
     name: "Reproduction",
     description:
-      "Un site de service pour la reproduction de photocopie dans un lycée (utiliser encore a l'heure actuel)",
+      "Un site de service pour la reproduction de photocopies dans un lycée (utilisé encore à l'heure actuelle)",
     listTech: ["PHP", "HTML", "CSS", "JQuery", "MySQL"],
     src: repro,
     liens: "https://repro.tsir.ovh/index.php",
@@ -49,7 +50,7 @@ const listProjects: Project[] = [
   {
     name: "Maths Sciences",
     description:
-      "Un site qui est un outils pour les professeurs de mathématiques ansi que de science une liste exaustif d'exercices généré aléatoirement, avec correction automatiques (utiliser pendant 3 ans par moi même)",
+      "Un site d'exercices servant d'outil pour les professeurs de mathématiques/sciences. (utilisé pendant 3 ans par moi-même)",
     listTech: ["PHP", "HTML", "CSS", "JQuery", "MySQL"],
     src: mathsc,
     liens: "http://math.sc.levasseur.free.fr/",

@@ -1,8 +1,6 @@
 {
   "name": "portefolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://LEVASSEUR-Romain.github.io/PortefolioCv",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -24,8 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeplaoy": "npm run build",
-    "deploy": "gh-pages -d -build"
+    "deploy": "node deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
+    "ftp-deploy": "^2.4.3",
     "webpack": "^5.74.0"
   }
 }

@@ -8,26 +8,14 @@ export default function CardsMonParcours() {
     <div className="monParcours">
       <h3>Mon Parcours</h3>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam minima
-        nulla, dignissimos iste ea veritatis sunt quo? Ex suscipit praesentium
-        ducimus dolor delectus animi quae, corporis neque mollitia excepturi
-        natus.
-        {/*         Aprés une expérience de professeur de maths sciences pour des bacs
-        professionnel. j'ai décidé une reconversion professionnelle dans un
-        domaine qui me corresponder mieux. Pendant mes temps libre j'ai appris
-        en autodidact le developpement web car l'aspect logique et créativité
-        m'interesse. Je suis en cours d'apprentisage avec des projets et la
-        formation &nbsp; */}
-        <a
-          href="https://openclassrooms.com/fr/paths/500-developpeur-dapplication-php-symfony"
-          target="_blank"
-          rel="noreferrer"
-        >
-          openclassrooms
-        </a>
-        .
+        Aprés une expérience de 7 ans en tant que professeur de maths sciences
+        dans l'enseignement, j'ai décidé de faire une reconversion
+        professionnelle dans le developpement web. Passioné d'informatique j'ai
+        appris en autodidact la programmation pendant mon temps libre. La
+        logique, la créativité et la conception sont des domaines dans lesquels
+        je m'épanouis.
       </p>
-      <h3>Compétences social</h3>
+      <h3>Compétences sociales</h3>
       <ul>
         {listSocial.map((elmt, index) => (
           <li key={index}>

@@ -15,12 +15,12 @@ export const listTools = ["GitHub"];
 
 export const listSocial = [
   "Esprit d'équipe",
-  "Autonomie",
+  "Autonome",
   "Polyvalent",
   "Curieux",
-  "Rigueur",
-  "Bienvaillant",
-  "Humble",
-  "Imagination",
-  "Ouverture d'esprit",
+  "Rigoureux",
+  "Bienveillant",
+  "Créatif",
+  "Imaginatif",
+  "Ouvert d'esprit",
 ];
