@@ -6,7 +6,11 @@ import ButtonContact from "../../component/button/buttonRound/buttonRound";
 import ScrollBottom from "../../component/decoration/scrollBottom/ScrollBottom";
 import OpacityWhite from "../../component/decoration/opacityWhite/OpacityWhite";
 import principal from "../../asset/image/principal.jpg";
+import listUrl from "../../list/listUrl";
+import ButtonLiensSocial from "../../component/button/buttonLiensSocial/ButtonLiensSocial";
 export default function Accueil() {
+  const GitHubLiens = listUrl.find((e) => e.type === "github");
+  const linkedinLiens = listUrl.find((e) => e.type === "linkedin");
   return (
     <section id="principal">
       <div className="background">
@@ -16,6 +20,18 @@ export default function Accueil() {
       <Title value="Développeur Web" />
       <CardLieu />
       <ButtonContact value="Me contacter" link="contact" />
+      <div className="accueilSocial">
+        <ButtonLiensSocial
+          type="gitHub"
+          url={GitHubLiens ? GitHubLiens.url : ""}
+          style={{ zIndex: 4 }}
+        />
+        <ButtonLiensSocial
+          type="linkedin"
+          url={linkedinLiens ? linkedinLiens.url : ""}
+          style={{ zIndex: 4 }}
+        />
+      </div>
       <ScrollBottom bottom="-25%" />
     </section>
   );

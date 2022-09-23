@@ -7,9 +7,9 @@ import Accueil from "../accueil/Accueil";
 import APropos from "../apropos/APropos";
 import Competences from "../competences/Competences";
 import Projets from "../projets/Projets";
-import Succes from "../succes/Succes";
 import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
+import Certification from "./../certification/Certification";
 export default function Main() {
   // dark Mode
   const darkModeValue = ChangeDarkMode();
@@ -22,7 +22,7 @@ export default function Main() {
         <APropos />
         <Competences />
         <Projets />
-        <Succes />
+        <Certification />
         <Contact />
         <Footer />
       </main>

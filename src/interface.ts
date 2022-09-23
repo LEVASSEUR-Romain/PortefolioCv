@@ -22,3 +22,8 @@ export interface Succes {
   src: string;
   liensGitHub: string;
 }
+
+export interface urlType {
+  type: string;
+  url: string;
+}

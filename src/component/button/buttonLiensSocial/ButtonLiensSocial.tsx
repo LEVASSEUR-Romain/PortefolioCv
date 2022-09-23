@@ -28,7 +28,7 @@ export default function ButtonLiensSocial({
   //if (type === "linkedin")
   else
     return (
-      <div className="buttonLinkedin buttonSocial">
+      <div className="buttonLinkedin buttonSocial" style={{ ...style }}>
         <a href={url} target="_blank" rel="noreferrer" className="socialAncre">
           <svg
             width="24"

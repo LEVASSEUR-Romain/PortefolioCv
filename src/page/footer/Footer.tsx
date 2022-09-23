@@ -5,19 +5,21 @@ import AncreSpecial from "../../component/decoration/ancreSpecial/AncreSpecial";
 import iconeTel from "../../asset/svg/iconeTel.svg";
 import iconeMail from "../../asset/svg/iconeMail.svg";
 import ButtonToUp from "./../../component/button/buttonToUp/ButtonToUp";
-
+import listUrl from "../../list/listUrl";
 export default function Footer() {
+  const GitHubLiens = listUrl.find((e) => e.type === "github");
+  const linkedinLiens = listUrl.find((e) => e.type === "linkedin");
   return (
     <footer>
       <div className="liensSocialFooter">
         <ButtonLiensSocial
           type="gitHub"
-          url="https://github.com/LEVASSEUR-Romain"
+          url={GitHubLiens ? GitHubLiens.url : ""}
           style={{}}
         />
         <ButtonLiensSocial
           type="linkedin"
-          url="https://github.com/LEVASSEUR-Romain"
+          url={linkedinLiens ? linkedinLiens.url : ""}
           style={{}}
         />
       </div>

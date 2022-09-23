@@ -15,7 +15,7 @@ export default function ButtonRound({
     );
   }
   return (
-    <a className="buttonRound" href={"?action=#" + link}>
+    <a className="buttonRound" href={"#" + link}>
       {value}
     </a>
   );

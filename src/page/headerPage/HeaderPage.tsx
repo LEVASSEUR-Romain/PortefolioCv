@@ -20,7 +20,7 @@ export default function HeaderPage() {
         <ButtonLiens value="Projets" link="projects" />
       </li>
       <li>
-        <ButtonLiens value="Succès" link="succes" />
+        <ButtonLiens value="Certification" link="certification" />
       </li>
       <li>
         <ButtonLiens value="Contact" link="contact" />
