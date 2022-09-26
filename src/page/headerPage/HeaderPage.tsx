@@ -22,9 +22,6 @@ export default function HeaderPage() {
       <li>
         <ButtonLiens value="Certification" link="certification" />
       </li>
-      <li>
-        <ButtonLiens value="Contact" link="contact" />
-      </li>
     </ul>
   );
 

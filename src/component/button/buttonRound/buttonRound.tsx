@@ -1,5 +1,6 @@
 import React from "react";
 import "./buttonRound.scss";
+import Pdf from "../../../asset/cv.pdf";
 export default function ButtonRound({
   value,
   link,
@@ -9,7 +10,7 @@ export default function ButtonRound({
 }) {
   if (link === "cv") {
     return (
-      <a className="buttonRound" href="/cv">
+      <a className="buttonRound" href={Pdf} target="_blank" rel="noreferrer">
         {value}
       </a>
     );

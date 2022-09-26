@@ -7,7 +7,7 @@ const listUrl: urlType[] = [
   },
   {
     type: "linkedin",
-    url: "",
+    url: "https://www.linkedin.com/in/romain-levasseur-3654bb251/",
   },
 ];
 export default listUrl;
