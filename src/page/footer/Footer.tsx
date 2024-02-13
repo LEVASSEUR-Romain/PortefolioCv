@@ -12,34 +12,13 @@ export default function Footer() {
   return (
     <footer>
       <div className="liensSocialFooter">
-        <ButtonLiensSocial
-          type="gitHub"
-          url={GitHubLiens ? GitHubLiens.url : ""}
-          style={{}}
-        />
-        <ButtonLiensSocial
-          type="linkedin"
-          url={linkedinLiens ? linkedinLiens.url : ""}
-          style={{}}
-        />
+        <ButtonLiensSocial type="gitHub" url={GitHubLiens ? GitHubLiens.url : ""} style={{}} />
       </div>
-      <div className="droit">
-        © Copyright 2022 - LEVASSEUR Romain - Tous droits réservés
-      </div>
+      <div className="droit">© Copyright 2022 - LEVASSEUR Romain - Tous droits réservés</div>
 
       <div className="infoFooter">
-        <AncreSpecial
-          value="romainlev@gmail.com"
-          href="mailto:romainlev@gmail.com"
-          alt="email"
-          src={iconeMail}
-        />
-        <AncreSpecial
-          value="0669565371"
-          href="tel:+33(0)669565371"
-          alt="telephone"
-          src={iconeTel}
-        />
+        <AncreSpecial value="romainlev@gmail.com" href="mailto:romainlev@gmail.com" alt="email" src={iconeMail} />
+        <AncreSpecial value="0669565371" href="tel:+33(0)669565371" alt="telephone" src={iconeTel} />
       </div>
 
       <ButtonToUp />
