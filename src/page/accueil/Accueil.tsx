@@ -10,7 +10,6 @@ import listUrl from "../../list/listUrl";
 import ButtonLiensSocial from "../../component/button/buttonLiensSocial/ButtonLiensSocial";
 export default function Accueil() {
   const GitHubLiens = listUrl.find((e) => e.type === "github");
-  const linkedinLiens = listUrl.find((e) => e.type === "linkedin");
   return (
     <section id="principal">
       <div className="background">

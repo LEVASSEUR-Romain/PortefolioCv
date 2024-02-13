@@ -8,7 +8,6 @@ import ButtonToUp from "./../../component/button/buttonToUp/ButtonToUp";
 import listUrl from "../../list/listUrl";
 export default function Footer() {
   const GitHubLiens = listUrl.find((e) => e.type === "github");
-  const linkedinLiens = listUrl.find((e) => e.type === "linkedin");
   return (
     <footer>
       <div className="liensSocialFooter">
