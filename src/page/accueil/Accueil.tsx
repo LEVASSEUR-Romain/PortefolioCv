@@ -21,18 +21,9 @@ export default function Accueil() {
       <CardLieu />
       <ButtonContact value="Me contacter" link="contact" />
       <div className="accueilSocial">
-        <ButtonLiensSocial
-          type="gitHub"
-          url={GitHubLiens ? GitHubLiens.url : ""}
-          style={{ zIndex: 4 }}
-        />
-        <ButtonLiensSocial
-          type="linkedin"
-          url={linkedinLiens ? linkedinLiens.url : ""}
-          style={{ zIndex: 4 }}
-        />
+        <ButtonLiensSocial type="gitHub" url={GitHubLiens ? GitHubLiens.url : ""} style={{ zIndex: 4 }} />
       </div>
-      <ScrollBottom bottom="-25%" />
+      <ScrollBottom bottom="-10%" />
     </section>
   );
 }

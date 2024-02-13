@@ -8,12 +8,11 @@ export default function CardProfil() {
       <img src={iconeProfil} alt="un homme blond prés d'un ordinateur" />
       <h3>LEVASSEUR Romain</h3>
       <p>
-        “L’imagination est plus importante que le savoir.”{" "}
-        <span>De Albert Einstein</span>
+        “L’imagination est plus importante que le savoir.” <span>De Albert Einstein</span>
       </p>
       <ButtonDescribe value={"age"} />
       <ButtonDescribe value={"Aisne"} />
-      <ButtonDescribe value={"Loisirs : Cinéma, twitch interview"} />
+      <ButtonDescribe value={"Loisirs : Cinéma, séries"} />
       <ButtonDescribe value={"Sports : Natation, Jogging"} />
     </div>
   );
